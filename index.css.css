@@ -1,0 +1,135 @@
+* {
+  color: seashell;
+  font-size: 22px;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  background-color: black;
+}
+
+/*Nav Bar*/
+nav {
+  position: fixed;
+  height: 69px;
+  background-color: black;
+  width: 98%;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  top: 0;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+}
+
+nav img {
+  height: 50px;
+}
+
+nav li {
+  display: inline;
+  margin: 8px;
+}
+
+/* Main content*/
+main {
+  margin-top: 69px;
+  background-color: black;
+  opacity: 0.7;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+banner div {
+  background: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  padding: 100px 0;
+}
+
+banner div h2,
+banner div h4 {
+  margin: 0;
+}
+
+banner div h2 {
+  font-size: 35px;
+  line-height: 80px;
+}
+
+.month-h2 {
+  font-size: 35px;
+}
+
+.month {
+  display: inline-flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: center;
+}
+
+.month div {
+  margin: 0 15px;
+}
+
+.month img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.locations {
+  position: relative;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.location-img {
+  height: 500px;
+  width: 95%;
+  margin: 0 50px;
+  position: relative;
+}
+
+.locations h2 {
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: 43%;
+}
+
+.locations h3 {
+  font-size: 30px;
+}
+
+.locations div {
+  display: inline-block;
+  background-color: black;
+  height: 200px;
+  width: 300px;
+  position: relative;
+  top: 25%;
+  margin: 0 20px;
+  padding-bottom: 35px;
+}
+
+.contact {
+  height: 200px;
+}
+
+#footer h5 {
+  margin-left: 20px;
+  text-align: left;
+  opacity: 0.7;
+}
